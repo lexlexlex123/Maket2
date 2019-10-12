@@ -6,6 +6,8 @@ function sum(...numbers)
   {
     sum += numbers[i];
   }
+
+  return sum;
 }
 
 export default sum;
