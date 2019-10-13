@@ -3,9 +3,12 @@
   "description": "maket",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "author": "Alexander Nekrasov",
-  "license": "Open"
+  "license": "Open",
+  "devDependencies": {
+    "webpack-dev-server": "^3.8.2"
+  }
 }
